@@ -1,8 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
   }
+
+html {
+  scroll-behavior: smooth;
+}
 
   header {
     width: 100%;
@@ -20,6 +24,12 @@ body {
     text-align: center; /* Center the text */
   }
 
+  h3 {
+    color: black; /* Adjust text color as needed */
+    margin: 20px 0; /* Remove default margin */
+    text-align: center; /* Center the text */
+  }
+
   p {
     color: black;
     margin: 20px 0;
@@ -31,12 +41,21 @@ body {
     gap: 10px; /* Adjust the gap between buttons as needed */
   }
 
+  .intro-body {
+    padding: 20px;
+  }
+
   .header-buttons button {
     padding: 10px;
-    background-color: #fff; /* Adjust button background color as needed */
+    background-color: #ffdb80; /* Adjust button background color as needed */
     color: #A90432; /* Adjust button text color as needed */
-    border: none;
+    border-color:#A90432;
+    border-radius: 50px;;
     cursor: pointer;
   }
 
-  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

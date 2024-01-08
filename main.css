@@ -33,10 +33,25 @@ body {
 
   .header-buttons button {
     padding: 10px;
-    background-color: #fff; /* Adjust button background color as needed */
+    background-color: #ffdb80; /* Adjust button background color as needed */
     color: #A90432; /* Adjust button text color as needed */
-    border: none;
+    border-color:#A90432;
+    border-radius: 50px;;
     cursor: pointer;
   }
-
   
+  .page-buttons {
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .page-buttons button {
+    padding: 10px;
+    background-color: #ffdb80; /* Adjust button background color as needed */
+    color: #A90432; /* Adjust button text color as needed */
+    border-color:#A90432;
+    border-radius: 50px;;
+    cursor: pointer;
+  }

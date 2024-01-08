@@ -33,14 +33,15 @@ h4 {
 
 .header-buttons button {
   padding: 10px;
-  background-color: #fff; /* Adjust button background color as needed */
+  background-color: #ffdb80; /* Adjust button background color as needed */
   color: #A90432; /* Adjust button text color as needed */
-  border: none;
+  border-color:#A90432;
+  border-radius: 50px;;
   cursor: pointer;
 }
 
 .intro-body {
-  padding: 10px;
+  padding: 18px;
 }
 
 .main-body {
