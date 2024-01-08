@@ -42,8 +42,18 @@ h4 {
 
 .intro-body {
   padding: 18px;
+  text-align: center;
 }
 
 .main-body {
   text-align: center;
+}
+
+.intro-body button {
+  padding: 10px;
+  background-color: #ffdb80; /* Adjust button background color as needed */
+  color: #A90432; /* Adjust button text color as needed */
+  border-color:#A90432;
+  border-radius: 50px;;
+  cursor: pointer;
 }

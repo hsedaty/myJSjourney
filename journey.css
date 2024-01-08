@@ -43,6 +43,7 @@ html {
 
   .intro-body {
     padding: 20px;
+    text-align: center;
   }
 
   .header-buttons button {
@@ -58,4 +59,33 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #ffdb80; /* Adjust button background color as needed */
+    color: #A90432; /* Adjust button text color as needed */
+    border-color:#A90432;
+    border-radius: 50px;;
+    cursor: pointer;
+  }
+
+  .main-body1 {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .main-body2 {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .main-body3 {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .main-body4 {
+    padding: 5px;
+    text-align: center;
   }
